@@ -10,11 +10,10 @@ A local AI-powered chatbot built with [BLIP-2](https://huggingface.co/Salesforce
 
 ### 🧱 In Progress
 
-
+- [ ] Streamlit Chat UI (chat-style interaction) without image
 ### 🔜 To Do
 - [ ] Setup structure for unittests
 - [ ] Setup unit and function tests
-- [ ] Streamlit Chat UI (chat-style interaction) without image
 - [ ] Upload an image
 - [ ] Load BLIP-2
 - [ ] Generate response from BLIP-2 
