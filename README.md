@@ -10,25 +10,22 @@ A local AI-powered chatbot built with [BLIP-2](https://huggingface.co/Salesforce
 - [x] Streamlit Chat UI (chat-style interaction) without image
 - [x] Setup structure for unittests
 ### 🧱 In Progress
-
+- [x] Load BLIP-2
+- [x] Session state for storing interactions
+- [x] Generate response from BLIP-2 
+- [x] Show dialog with BLIP-2 in CHAT UI
+- [x] Add a text-only fallback chatbot (QWEN2.5 7B)
+- [x] Add loading spinner while generating response
 ### 🔜 To Do
-
 - [ ] Setup unit and function tests
 - [ ] Upload an image
-- [ ] Load BLIP-2
-- [ ] Generate response from BLIP-2 
-- [ ] Show dialog with BLIP-2 in CHAT UI
-- [ ] Session state for storing interactions
 - [ ] Error handling (e.g. unsupported image format)
 - [ ] Drag & drop image upload
 - [ ] Support for CPU fallback
-- [ ] Add loading spinner while generating response
-- [ ] Enter a text prompt/question
 - [ ] Use BLIP-2 to analyze image and generate response
 - [ ] Display image and response in the UI
 - [ ] Save conversation history
 - [ ] Let user download chat as PDF or .txt
-- [ ] Add a text-only fallback chatbot (e.g. LLaMA or GPT4All)
 - [ ] Package as a Hugging Face Space or Streamlit Cloud app
 - [ ] Finetune BLIP-2 for specilised bot.
 
